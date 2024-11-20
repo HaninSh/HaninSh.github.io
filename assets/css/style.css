@@ -732,8 +732,8 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 5px;
-  margin: 0;
+  gap: 15px;
+  margin: 0 -15px;
   padding: 25px;
   padding-bottom: 25px;
   overflow-x: auto;
@@ -744,7 +744,7 @@ main {
 }
 
 .clients-item {
-  min-width: auto;
+  min-width: 50%;
   scroll-snap-align: start;
 }
 
@@ -756,6 +756,23 @@ main {
 
 .clients-item img:hover { filter: grayscale(0); }
 
+
+.icon-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 15px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+}
+
+.icon-item .icon-link {
+  color: var(--light-gray-70);
+  font-size: 18px;
+}
+
+
+.icon-item .icon-link:hover { color: var(--light-gray); }
 
 
 
