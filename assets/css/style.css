@@ -733,7 +733,7 @@ main {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 5px;
-  margin: 0 -15px;
+  margin: 0;
   padding: 25px;
   padding-bottom: 25px;
   overflow-x: auto;
@@ -744,7 +744,7 @@ main {
 }
 
 .clients-item {
-  min-width: 50%;
+  min-width: auto;
   scroll-snap-align: start;
 }
 
