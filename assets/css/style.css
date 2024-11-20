@@ -1029,6 +1029,7 @@ main {
 
 .project-title,
 .project-category { margin-left: 10px; }
+.project-description { margin-left: 10px; }
 
 .project-title {
   color: var(--white-2);
@@ -1044,6 +1045,11 @@ main {
   font-weight: var(--fw-300);
 }
 
+.project-description {
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+}
 
 
 
