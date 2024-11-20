@@ -1040,14 +1040,17 @@ main {
 }
 
 .project-category {
-  color: var(--light-gray-70);
+  /* color: var(--light-gray-70); */
+  color: var(--bg-gradient-yellow-2);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
 
 .project-description {
-  color: var(--white-2);
-  font-size: 12px;
+  /* color: var(--white-2); */
+  color: var(--light-gray-70);
+  font-size: var(--fs-8);
+
   
 }
 
