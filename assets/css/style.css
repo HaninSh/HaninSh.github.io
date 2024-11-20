@@ -1041,13 +1041,13 @@ main {
 
 .project-category {
   color: var(--light-gray-70); 
-  font-size: var(--fs-7);
+  font-size: var(--fs-8);
   font-weight: var(--fw-300);
 }
 
 .project-description {
   color: var(--white-2);
-  font-size: var(--fs-7);
+  font-size: var(--fs-8);
   font-weight: var(--fw-300);
 
 }
