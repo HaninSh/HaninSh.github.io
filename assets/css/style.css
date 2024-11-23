@@ -1032,7 +1032,8 @@ main {
 .project-description { margin-left: 10px; }
 
 .project-title {
-  color: var(--white-2);
+  /* color: var(--white-2); */
+  color: var(--text-gradient-yellow);
   font-size: var(--fs-5);
   font-weight: var(--fw-400);
   text-transform: capitalize;
